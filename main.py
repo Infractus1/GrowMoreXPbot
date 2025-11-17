@@ -6,7 +6,7 @@ from aiogram.enums import ParseMode
 
 # =============== НАСТРОЙКИ БОТА ===============
 TOKEN = os.getenv("BOT_TOKEN") or "ВАШ_ТОКЕН_БОТА"
-default=DefaultBotProperties(...)
+bot = Bot(token=TOKEN, parse_mode=ParseMode.HTML)
 dp = Dispatcher()
 
 DATA_FILE = "data.json"
@@ -181,3 +181,4 @@ async def main():
 if __name__ == "__main__":
     import asyncio
     asyncio.run(main())
+
