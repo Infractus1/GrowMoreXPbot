@@ -1,2 +1,2 @@
 ini
-aiogram==3.5.0
+aiogram==3.7.0
