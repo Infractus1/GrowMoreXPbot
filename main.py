@@ -6,7 +6,7 @@ from aiogram.enums import ParseMode
 
 # =============== НАСТРОЙКИ БОТА ===============
 TOKEN = os.getenv("BOT_TOKEN") or "ВАШ_ТОКЕН_БОТА"
-bot = Bot(token=TOKEN, parse_mode=ParseMode.HTML)
+bot = Bot(token=8542988551:AAHkBPHMLpcMB5zX-stuMN42M_fuJ6JDZbY, parse_mode=ParseMode.HTML)
 dp = Dispatcher()
 
 DATA_FILE = "data.json"
