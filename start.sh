@@ -1,4 +1,3 @@
-from main.main import main
-import asyncio
-
-asyncio.run(main())
+#!/bin/bash
+export $(cat .env | xargs)
+python3 app.py
